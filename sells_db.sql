@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th9 27, 2021 lúc 04:45 PM
--- Phiên bản máy phục vụ: 10.4.20-MariaDB
--- Phiên bản PHP: 8.0.9
+-- Thời gian đã tạo: Th9 30, 2021 lúc 12:39 PM
+-- Phiên bản máy phục vụ: 10.4.19-MariaDB
+-- Phiên bản PHP: 7.3.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -171,7 +171,37 @@ INSERT INTO `color_id` (`id`, `color_pr`, `id_color`) VALUES
 (35, 'Pink', 73),
 (36, 'Black', 74),
 (37, 'White', 75),
-(38, 'Pink\r\n', 76);
+(38, 'Pink\r\n', 76),
+(39, 'black', 77),
+(39, 'pink', 78),
+(39, 'red', 79),
+(40, 'blue', 80),
+(40, 'violet', 81),
+(40, 'yellow', 82),
+(41, 'white', 83),
+(41, 'black', 84),
+(41, 'blue', 85),
+(42, 'green', 86),
+(42, 'origan', 87),
+(42, 'brown', 88),
+(43, 'white', 89),
+(43, 'black', 90),
+(43, 'red', 91),
+(44, 'black', 92),
+(44, 'white', 93),
+(44, 'blue', 94),
+(45, 'green', 95),
+(45, 'origan', 96),
+(45, 'white', 97),
+(46, 'gray', 98),
+(46, 'green', 99),
+(46, 'black', 100),
+(47, 'black', 101),
+(47, 'violet', 102),
+(47, 'yellow', 103),
+(48, 'white', 104),
+(48, 'blue', 105),
+(48, 'origan', 106);
 
 -- --------------------------------------------------------
 
@@ -368,7 +398,41 @@ INSERT INTO `image_id` (`id`, `image_url`, `id_image`) VALUES
 (38, 'https://www.rlmedia.io/is/image/PoloGSI/s7-1403798_lifestyle?$rl_df_pdp_5_7_lif$', 164),
 (38, 'https://www.rlmedia.io/is/image/PoloGSI/s7-1403798_alternate3?$rl_df_pdp_5_7$', 165),
 (38, 'https://www.rlmedia.io/is/image/PoloGSI/s7-1403798_alternate1?$rl_df_pdp_5_7$', 166),
-(38, 'https://www.rlmedia.io/is/image/PoloGSI/s7-1403798_alternate2?$rl_df_pdp_5_7$', 167);
+(38, 'https://www.rlmedia.io/is/image/PoloGSI/s7-1403798_alternate2?$rl_df_pdp_5_7$', 167),
+(39, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2d0761b4/original/90_1001650-1A01337_2B070_23_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 168),
+(39, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwfede5c85/original/90_1001650-1A01337_2B070_26_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 169),
+(39, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa946a73b/original/90_1001650-1A01337_2B070_20_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 170),
+(39, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5e1e60b7/original/90_1001650-1A01337_2B070_24_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 171),
+(40, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc56963a8/original/90_1000038-1A01396_5B020_23_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 172),
+(40, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dweab64920/original/90_1000038-1A01396_5B020_24_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 173),
+(40, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwaba30fb8/original/90_1000038-1A01396_5B020_26_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 174),
+(40, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf521c30f/original/90_1000038-1A01396_5B020_20_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 175),
+(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2d0761b4/original/90_1001650-1A01337_2B070_23_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 176),
+(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0050b60b/original/90_1000438-1A00382_6U140_20_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 177),
+(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw15fd96eb/original/90_1000438-1A00382_6U140_24_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 178),
+(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw6b04cf12/original/90_1000438-1A00382_6U140_26_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 179),
+(41, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 180),
+(41, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe8f3f261/original/90_1000497-1A01268_1E01V_24_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 181),
+(41, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd683e9d7/original/90_1000497-1A01268_1E01V_20_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 182),
+(42, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf48a1e81/original/90_1001629-1A01276_2L050_23_MedusaBackpack-Accessories-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 183),
+(42, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd50c28a7/original/90_1001629-1A01276_2L050_24_MedusaBackpack-Accessories-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 184),
+(42, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw160368a0/original/90_1001629-1A01276_2L050_20_MedusaBackpack-Accessories-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 185),
+(43, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0911d739/original/90_1000509-1A00463_1E01V_23_MedusaStudSandals-Shoes-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 186),
+(43, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw997fba1c/original/90_1000509-1A00463_1E01V_24_MedusaStudSandals-Shoes-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 187),
+(43, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw263a4ae9/original/90_1000509-1A00463_1E01V_20_MedusaStudSandals-Shoes-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 188),
+(44, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2e0ac210/original/90_1001670-1A01308_2O170_23_ArgyleKnitJumper-Clothing-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 189),
+(44, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8727a103/original/90_1001670-1A01308_2O170_24_ArgyleKnitJumper-Clothing-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 190),
+(44, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwde8bb408/original/90_1001670-1A01308_2O170_26_ArgyleKnitJumper-Clothing-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 191),
+(45, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbb3f022d/original/90_1001676-1A01374_6U140_23_GrecaJeans-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 192),
+(45, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc008baf6/original/90_1001676-1A01374_6U140_24_GrecaJeans-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 193),
+(45, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9f2d336c/original/90_1001676-1A01374_6U140_26_GrecaJeans-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 194),
+(45, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc37deff3/original/90_1001629-1A01275_2U530_23_LaMedusaKidsBackpack-Accessories-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 195),
+(46, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw132a02d9/original/90_1001629-1A01275_2U530_24_LaMedusaKidsBackpack-Accessories-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 196),
+(46, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe38ac69f/original/90_1001629-1A01275_2U530_20_LaMedusaKidsBackpack-Accessories-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 197),
+(46, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5e1e60b7/original/90_1001650-1A01337_2B070_24_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 198),
+(47, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw41811992/original/90_YHX00001-YB00365_YA03_23_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 199),
+(47, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwfb62c90b/original/90_YHX00001-YB00365_YA03_24_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 200),
+(47, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwfb62c90b/original/90_YHX00001-YB00365_YA03_24_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 201);
 
 -- --------------------------------------------------------
 
@@ -474,7 +538,17 @@ INSERT INTO `product` (`id`, `name`, `price`, `Image`, `description`, `type_gend
 (35, 'LA MEDUSA LEATHER BELT', '430', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw25d6ea45/original/90_DCDI141-DVTNM_1P65V_20_LaMedusaLeatherBelt-Belts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 'A very Versace finishing touch, this supple leather belt is enriched with a golden Medusa charm - the same silhouette of the mythical woman that is found on the doors of the brand\'s first Milanese headquarters.', 2, 5),
 (36, 'GRECA SUEDE SNEAKERS', '880', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw931c21a0/original/90_DSU8404-1A00784_1B000_20_GrecaSuedeTrainers-GrecaSneakers-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 'Crafted in soft suede, the low-top Greca sneakers are characterized by understated, clean lines and the graphic Greca pattern on the midsole', 1, 3),
 (37, 'GRECA LOGO SNEAKERS\r\nSALE PRICE', '1060', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7263ec76/original/90_DSU8404-DV51G_D0141_20_GrecaLogoTrainers-GrecaSneakers-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 'Versace\'s latest sneaker silhouette, Greca is characterized by understated, clean lines and the graphic Greca pattern on the midsole. The supple leather design features a lateral logo, while the outsole hides a Medusa on the heel.', 1, 3),
-(38, 'Thorton Allover-Pony Canvas Sneaker', '75.00', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1403798_lifestyle?$rl_df_pdp_5_7_lif$', 'Made with recycled cotton, this low-top canvas sneaker is embroidered all over with Ralph Lauren\'s signature Pony and features an exclusive outsole patterned after nautical rope.', 1, 3);
+(38, 'Thorton Allover-Pony Canvas Sneaker', '75.00', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1403798_lifestyle?$rl_df_pdp_5_7_lif$', 'Made with recycled cotton, this low-top canvas sneaker is embroidered all over with Ralph Lauren\'s signature Pony and features an exclusive outsole patterned after nautical rope.', 1, 3),
+(39, 'MEDUSA HOLOGRAPHIC SWEATSHIRT', '300', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa946a73b/original/90_1001650-1A01337_2B070_20_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 'Crafted from soft stretch cotton, this comfy sweatshirt is embellished with a holographic Medusa print.', 3, 1),
+(40, 'BAROCCOFLAGE KIDS PRINT PANTS', '500', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf521c30f/original/90_1000038-1A01396_5B020_20_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Crafted from soft stretch cotton, this comfy sweatshirt is embellished with a holographic Medusa print.', 3, 1),
+(41, 'MEDUSA STUD LAMINATED ROUND BAG', '1000', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd683e9d7/original/90_1000497-1A01268_1E01V_20_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 'A fun style for warm weather, these comfy, laminated sandals are embellished with gold-tone Medusa studs.', 3, 4),
+(42, 'MEDUSA BACKPACK', '1022', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw160368a0/original/90_1001629-1A01276_2L050_20_MedusaBackpack-Accessories-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Crafted from soft stretch cotton, this comfy sweatshirt is embellished with a holographic Medusa print.', 3, 6),
+(43, 'MEDUSA STUD SANDALS', '500', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw263a4ae9/original/90_1000509-1A00463_1E01V_20_MedusaStudSandals-Shoes-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 'A fun style for warm weather, these comfy, laminated sandals are embellished with gold-tone Medusa studs.', 3, 3),
+(44, 'ARGYLE KNIT SWEATER', '600', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf6607ea6/original/90_1001670-1A01308_2O170_20_ArgyleKnitJumper-Clothing-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful - this comfy, high neck sweater is enriched with a printed logo motif.', 3, 1),
+(45, 'GRECA JEANS', '700', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe7ebb331/original/90_1001676-1A01374_6U140_20_GrecaJeans-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful, this jacket is designed for future fashion icons. The denim style has a unique twist - the jacket features a layer of padding.', 3, 2),
+(46, 'LA MEDUSA KIDS BACKPACK', '1000', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe38ac69f/original/90_1001629-1A01275_2U530_20_LaMedusaKidsBackpack-Accessories-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful, this jacket is designed for future fashion icons. The denim style has a unique twist - the jacket features a layer of padding.', 3, 6),
+(47, 'CHAIN REACTION KIDS SNEAKERS', '1022', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dweb113c5b/original/90_YHX00001-YB00365_YA03_20_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 'Crafted from soft stretch cotton, this comfy sweatshirt is embellished with a holographic Medusa print.', 3, 3),
+(48, 'PADDED DENIM JACKET', '1500', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0050b60b/original/90_1000438-1A00382_6U140_20_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful, this jacket is designed for future fashion icons. The denim style has a unique twist - the jacket features a layer of padding.', 3, 3);
 
 -- --------------------------------------------------------
 
@@ -594,7 +668,43 @@ INSERT INTO `size_id` (`id`, `id_size`, `size`) VALUES
 (8, 99, 'S'),
 (9, 100, 'S'),
 (10, 101, 'S'),
-(11, 102, 'S');
+(11, 102, 'S'),
+(39, 103, '35'),
+(39, 104, '36'),
+(39, 105, '37'),
+(40, 106, '35'),
+(40, 107, '36'),
+(40, 108, '37'),
+(40, 109, '38'),
+(41, 110, '35'),
+(41, 111, '36'),
+(41, 112, '37'),
+(41, 113, '38'),
+(42, 114, '35'),
+(42, 115, '36'),
+(42, 116, '37'),
+(42, 117, '38'),
+(43, 118, '35'),
+(43, 119, '36'),
+(43, 120, '37'),
+(43, 121, '38'),
+(44, 122, '35'),
+(44, 123, '36'),
+(44, 124, '37'),
+(44, 125, '38'),
+(45, 126, '35'),
+(45, 127, '36'),
+(45, 128, '37'),
+(45, 129, '38'),
+(46, 130, '35'),
+(46, 131, '36'),
+(46, 132, '37'),
+(47, 133, '35'),
+(47, 134, '36'),
+(47, 135, '37'),
+(48, 136, '35'),
+(48, 137, '36'),
+(48, 138, '37');
 
 -- --------------------------------------------------------
 
@@ -613,7 +723,8 @@ CREATE TABLE `type_gender_id` (
 
 INSERT INTO `type_gender_id` (`id`, `type`) VALUES
 (1, 'Men'),
-(2, 'Women');
+(2, 'Women'),
+(3, 'Children');
 
 -- --------------------------------------------------------
 
@@ -730,7 +841,7 @@ ALTER TABLE `cart`
 -- AUTO_INCREMENT cho bảng `color_id`
 --
 ALTER TABLE `color_id`
-  MODIFY `id_color` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `id_color` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
 
 --
 -- AUTO_INCREMENT cho bảng `customer`
@@ -742,7 +853,7 @@ ALTER TABLE `customer`
 -- AUTO_INCREMENT cho bảng `image_id`
 --
 ALTER TABLE `image_id`
-  MODIFY `id_image` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=168;
+  MODIFY `id_image` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=202;
 
 --
 -- AUTO_INCREMENT cho bảng `payment`
@@ -754,13 +865,13 @@ ALTER TABLE `payment`
 -- AUTO_INCREMENT cho bảng `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
 
 --
 -- AUTO_INCREMENT cho bảng `size_id`
 --
 ALTER TABLE `size_id`
-  MODIFY `id_size` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+  MODIFY `id_size` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=139;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
