@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th9 30, 2021 lúc 12:39 PM
+-- Thời gian đã tạo: Th10 01, 2021 lúc 12:05 PM
 -- Phiên bản máy phục vụ: 10.4.19-MariaDB
 -- Phiên bản PHP: 7.3.28
 
@@ -68,16 +68,6 @@ CREATE TABLE `cart` (
 INSERT INTO `cart` (`id_cart`, `customer_id`, `product_id`, `name`, `Image`, `type_pr_id`, `quantity`, `color`, `size`, `amount`, `create_date`) VALUES
 (176, 85, 25, 'GRECA SNEAKERS', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbeb9d2dd/original/90_DSU8404-1A00775_2W340_23_GrecaTrainers-GrecaSneakers-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 3, '1', 'Blue+White', '', '960', '2021-09-04'),
 (177, 85, 14, 'La Medusa Medium Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbf7aa816/original/90_1000699-DVIT3T_1B00V_20_LaMedusaMediumHoboBag-ShoulderBags-versace-online-store_2_0.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1993', '2021-09-04'),
-(206, 87, 20, 'LA MEDUSA MEDIUM HANDBAG', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 4, '10', 'beige', '', '36000', '2021-09-10'),
-(207, 87, 22, 'WOOL & NYLON JACKET', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9dd208d7/original/90_1001244-1A00901_2U340_10_WoolandNylonJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, '10', 'Blue+Black', 'L', '33200', '2021-09-10'),
-(208, 87, 2, 'Classic Fit Jersey Graphic T-Shirt', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411251_alternate10?$rl_df_pdp_5_7_a10$', 1, '10', 'White', 'L', '390', '2021-09-10'),
-(209, 87, 4, 'PRL Surf Fleece Hoodie', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411113_alternate10?$rl_df_pdp_5_7_a10$', 1, '10', 'Seafoam', 'L', '1680', '2021-09-10'),
-(210, 87, 4, 'PRL Surf Fleece Hoodie', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411113_alternate10?$rl_df_pdp_5_7_a10$', 1, '10', 'Seafoam', 'L', '1680', '2021-09-10'),
-(211, 87, 18, 'Greca Backpack', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7f1b75e5/original/90_DFZ8519-DNYGR3_D41E_20_GrecaBackpack-Backpacks-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 6, '5', 'Black', '', '12205', '2021-09-10'),
-(212, 87, 26, 'LA MEDUSA NYLON BACKPACK', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5e47d37b/original/90_1000733-DNY8ME_D41NP_23_LaMedusaNylonBackpack-Backpacks-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 6, '2', 'Black', '', '4800', '2021-09-10'),
-(213, 87, 37, 'GRECA LOGO SNEAKERS\r\nSALE PRICE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5fe5dff0/original/90_DSU8404-DV51G_D0141_23_GrecaLogoTrainers-GrecaSneakers-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 3, '5', 'White', '41', '5300', '2021-09-10'),
-(214, 87, 19, 'La Medusa Leather Belt', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw36142dbc/original/90_DCU4747-DVTP1_K41NV_20_LaMedusaLeatherBelt-Belts-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 5, '6', 'Black', '', '2766', '2021-09-10'),
-(215, 87, 31, 'LA MEDUSA TRÉSOR DE LA MER PRINT BELT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwecb3b394/original/90_DCDD442-D2VSTM_5P08V_23_LaMedusaTrsordelaMerPrintBelt-Belts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 5, '5', 'Black', '', '1750', '2021-09-10'),
 (216, 85, 1, 'Serape-Print Mesh Hoodie', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411077_alternate10?$rl_df_pdp_5_7_a10$', 1, '7', 'Serape Print', 'L', '2576', '2021-09-10'),
 (217, 85, 3, 'Classic Fit Southwestern Pocket T-Shirt', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, '10', 'Freshwater', 'L', '890', '2021-09-10'),
 (218, 85, 4, 'PRL Surf Fleece Hoodie', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411113_alternate10?$rl_df_pdp_5_7_a10$', 1, '10', 'Seafoam', 'L', '1680', '2021-09-10'),
@@ -86,7 +76,11 @@ INSERT INTO `cart` (`id_cart`, `customer_id`, `product_id`, `name`, `Image`, `ty
 (221, 85, 31, 'LA MEDUSA TRÉSOR DE LA MER PRINT BELT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwecb3b394/original/90_DCDD442-D2VSTM_5P08V_23_LaMedusaTrsordelaMerPrintBelt-Belts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 5, '6', 'Black', '', '2100', '2021-09-10'),
 (222, 85, 28, 'COTTON POPLIN INTARSIA SHIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5be7107d/original/90_1000795-1A00963_2W030_15_CottonPoplinIntarsiaShirt-BlousesandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, '6', 'Blue + White', '42', '14040', '2021-09-10'),
 (223, 85, 29, 'STRAIGHT LEG JEANS', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwcb0dfea6/original/90_1001245-1A00909_1D100_15_StraightLegJeans-Jeans-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 2, '6', 'Blue', '27', '7320', '2021-09-10'),
-(224, 85, 21, 'LA MEDUSA MEDIUM HANDBAG', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe0341de9/original/90_DBFI039-DVIT2T_KVO41_20_LaMedusaMediumHandbag-TopHandle-versace-online-store_4_2.jpg?sw=748&sh=1050&sm=fit', 4, '6', 'Orange', '', '21600', '2021-09-10');
+(224, 85, 21, 'LA MEDUSA MEDIUM HANDBAG', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe0341de9/original/90_DBFI039-DVIT2T_KVO41_20_LaMedusaMediumHandbag-TopHandle-versace-online-store_4_2.jpg?sw=748&sh=1050&sm=fit', 4, '6', 'Orange', '', '21600', '2021-09-10'),
+(240, 87, 51, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw942add04/original/90_ZACJ00008-ZCOSP052_Z4003_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=850&sh=1200&sm=fit', 0, '1', 'white', 'XL', '595', '2021-10-01'),
+(241, 87, 51, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw942add04/original/90_ZACJ00008-ZCOSP052_Z4003_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=850&sh=1200&sm=fit', 0, '1', 'blue', 'XL', '595', '2021-10-01'),
+(242, 87, 13, 'La Medusa Small Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1821', '2021-10-01'),
+(243, 87, 42, 'MEDUSA BACKPACK', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf48a1e81/original/90_1001629-1A01276_2L050_23_MedusaBackpack-Accessories-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 6, '1', 'green', '37', '1022', '2021-10-01');
 
 -- --------------------------------------------------------
 
@@ -201,7 +195,67 @@ INSERT INTO `color_id` (`id`, `color_pr`, `id_color`) VALUES
 (47, 'yellow', 103),
 (48, 'white', 104),
 (48, 'blue', 105),
-(48, 'origan', 106);
+(48, 'origan', 106),
+(49, 'black', 107),
+(49, 'pink', 108),
+(49, 'red', 109),
+(50, 'blue', 110),
+(50, 'violet', 111),
+(50, 'yellow', 112),
+(51, 'white', 113),
+(51, 'black', 114),
+(51, 'blue', 115),
+(51, 'green', 116),
+(52, 'origan', 117),
+(52, 'brown', 118),
+(52, 'white', 119),
+(53, 'black', 120),
+(53, 'red', 121),
+(54, 'black', 122),
+(54, 'white', 123),
+(54, 'blue', 124),
+(55, 'green', 125),
+(55, 'origan', 126),
+(55, 'white', 127),
+(56, 'gray', 128),
+(56, 'green', 129),
+(56, 'black', 130),
+(57, 'black', 131),
+(57, 'violet', 132),
+(57, 'yellow', 133),
+(58, 'white', 134),
+(58, 'blue', 135),
+(58, 'origan', 136),
+(68, 'white', 137),
+(68, 'blue', 138),
+(68, 'origan', 139),
+(67, 'black', 140),
+(67, 'violet', 141),
+(67, 'yellow', 142),
+(66, 'gray', 143),
+(66, 'green', 144),
+(66, 'black', 145),
+(65, 'green', 146),
+(65, 'origan', 147),
+(65, 'white', 148),
+(64, 'black', 149),
+(64, 'white', 150),
+(64, 'blue', 151),
+(63, 'black', 152),
+(63, 'red', 153),
+(62, 'origan', 154),
+(62, 'brown', 155),
+(62, 'white', 156),
+(61, 'white', 157),
+(61, 'black', 158),
+(61, 'blue', 159),
+(61, 'green', 160),
+(60, 'blue', 161),
+(60, 'violet', 162),
+(60, 'yellow', 163),
+(59, 'black', 164),
+(59, 'pink', 165),
+(59, 'red', 166);
 
 -- --------------------------------------------------------
 
@@ -407,8 +461,8 @@ INSERT INTO `image_id` (`id`, `image_url`, `id_image`) VALUES
 (40, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dweab64920/original/90_1000038-1A01396_5B020_24_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 173),
 (40, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwaba30fb8/original/90_1000038-1A01396_5B020_26_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 174),
 (40, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf521c30f/original/90_1000038-1A01396_5B020_20_BaroccoflageKidsPrintTrousers-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 175),
-(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2d0761b4/original/90_1001650-1A01337_2B070_23_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 176),
-(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0050b60b/original/90_1000438-1A00382_6U140_20_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 177),
+(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0050b60b/original/90_1000438-1A00382_6U140_20_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 176),
+(48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw15fd96eb/original/90_1000438-1A00382_6U140_24_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 177),
 (48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw15fd96eb/original/90_1000438-1A00382_6U140_24_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 178),
 (48, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw6b04cf12/original/90_1000438-1A00382_6U140_26_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 179),
 (41, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 180),
@@ -432,7 +486,82 @@ INSERT INTO `image_id` (`id`, `image_url`, `id_image`) VALUES
 (46, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5e1e60b7/original/90_1001650-1A01337_2B070_24_MedusaHolographicSweatshirt-Clothing-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 198),
 (47, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw41811992/original/90_YHX00001-YB00365_YA03_23_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 199),
 (47, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwfb62c90b/original/90_YHX00001-YB00365_YA03_24_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 200),
-(47, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwfb62c90b/original/90_YHX00001-YB00365_YA03_24_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 201);
+(47, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwfb62c90b/original/90_YHX00001-YB00365_YA03_24_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 201),
+(49, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2a619b78/original/90_ZSWN00003-ZSEP0221_Z7150_20_LaGrecaembroideredsilkbathrobe-Bathrobes-versace-online-store_1_2.jpg?sw=748&sh=1050&sm=fit', 202),
+(49, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf0ccb5d0/original/90_ZSWN00003-ZSEP0221_Z7150_28_LaGrecaembroideredsilkbathrobe-Bathrobes-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 203),
+(49, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw39b27fc3/original/90_ZSWN00003-ZSEP0221_Z7150_26_LaGrecaembroideredsilkbathrobe-Bathrobes-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 204),
+(49, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf70023fd/original/90_ZSWN00003-ZSEP0221_Z7150_24_LaGrecaembroideredsilkbathrobe-Bathrobes-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 205),
+(50, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 206),
+(50, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwee7516ad/original/90_ZACJ00008-ZCOSP052_Z4800_28_IBaroqueBathrobe-Bathrobes-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 207),
+(50, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7c966514/original/90_ZACJ00008-ZCOSP052_Z4800_24_IBaroqueBathrobe-Bathrobes-versace-online-store_8_3.jpg?sw=748&sh=1050&sm=fit', 208),
+(50, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7c966514/original/90_ZACJ00008-ZCOSP052_Z4800_24_IBaroqueBathrobe-Bathrobes-versace-online-store_8_3.jpg?sw=748&sh=1050&sm=fit', 209),
+(51, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw942add04/original/90_ZACJ00008-ZCOSP052_Z4003_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=850&sh=1200&sm=fit', 210),
+(51, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw02ba7341/original/90_ZACJ00008-ZCOSP052_Z4003_24_IBaroqueBathrobe-Bathrobes-versace-online-store_7_3.jpg?sw=850&sh=1200&sm=fit', 211),
+(51, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw39e1974b/original/90_ZACJ00008-ZCOSP052_Z4003_26_IBaroqueBathrobe-Bathrobes-versace-online-store_4_3.jpg?sw=850&sh=1200&sm=fit', 212),
+(52, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9723636e/original/90_ZACJ00008-ZCOSP052_Z4584_20_IBaroqueBathrobe-Bathrobes-versace-online-store_6_0.jpg?sw=748&sh=1050&sm=fit', 213),
+(52, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw3801910e/original/90_ZACJ00008-ZCOSP052_Z4584_24_IBaroqueBathrobe-Bathrobes-versace-online-store_4_0.jpg?sw=850&sh=1200&sm=fit', 214),
+(52, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb0e67594/original/90_ZACJ00008-ZCOSP052_Z4584_23_IBaroqueBathrobe-Bathrobes-versace-online-store_6_0.jpg?sw=850&sh=1200&sm=fit', 215),
+(53, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb36b1941/original/90_ZACP00052-ZCOSP075_Z7066_20_IBaroqueTerryClothBathrobe-Bathrobes-versace-online-store_2_2.png?sw=748&sh=1050&sm=fit', 216),
+(53, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw308da0dc/original/90_ZACP00052-ZCOSP075_Z7066_24_IBaroqueTerryClothBathrobe-Bathrobes-versace-online-store_2_2.png?sw=748&sh=1050&sm=fit', 217),
+(53, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw811ca023/original/90_ZACP00052-ZCOSP075_Z7066_23_IBaroqueTerryClothBathrobe-Bathrobes-versace-online-store_3_2.png?sw=748&sh=1050&sm=fit', 218),
+(54, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7249f70e/original/90_ZACJ00014-ZCOSP052_Z4250_20_MulticolorIBaroqueBathrobe-Bathrobes-versace-online-store_7_1.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 219),
+(54, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw1d093133/original/90_ZACJ00014-ZCOSP052_Z4250_26_MulticolorIBaroqueBathrobe-Bathrobes-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 220),
+(54, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw75194bd3/original/90_ZACJ00014-ZCOSP052_Z4250_23_MulticolorIBaroqueBathrobe-Bathrobes-versace-online-store_6_1.jpg?sw=748&sh=1050&sm=fit', 221),
+(55, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwefc09ee1/original/90_ZACJ00008-ZCOSP052_Z4002_20_IBaroqueBathrobe-Bathrobes-versace-online-store_7_0.jpg?sw=748&sh=1050&sm=fit', 222),
+(55, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb51bfd10/original/90_ZACJ00008-ZCOSP052_Z4002_26_IBaroqueBathrobe-Bathrobes-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 223),
+(55, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5dcae36c/original/90_ZACJ00008-ZCOSP052_Z4002_24_IBaroqueBathrobe-Bathrobes-versace-online-store_4_0.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 224),
+(55, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe98c84f8/original/90_ZACJ00008-ZCOSP052_Z4002_23_IBaroqueBathrobe-Bathrobes-versace-online-store_7_0.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 225),
+(56, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw93027345/original/90_ZACJ00008-ZCOSP052_Z4004_20_IBaroqueBathrobe-Bathrobes-versace-online-store_6_1.jpg?sw=748&sh=1050&sm=fit', 226),
+(56, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9da8f891/original/90_ZACJ00008-ZCOSP052_Z4004_24_IBaroqueBathrobe-Bathrobes-versace-online-store_4_1.jpg?sw=748&sh=1050&sm=fit', 227),
+(56, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5b5d0933/original/90_ZACJ00008-ZCOSP052_Z4004_23_IBaroqueBathrobe-Bathrobes-versace-online-store_6_1.jpg?sw=748&sh=1050&sm=fit', 228),
+(57, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwed431183/original/90_ZACJ00008-ZCOSP052_Z4882_20_IBaroqueBathrobe-Bathrobes-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 229),
+(57, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw71a69288/original/90_ZACJ00008-ZCOSP052_Z4882_24_IBaroqueBathrobe-Bathrobes-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 230),
+(57, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw1f61c7c7/original/90_ZACJ00008-ZCOSP052_Z4882_23_IBaroqueBathrobe-Bathrobes-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 231),
+(58, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa67b56d5/original/90_ZACJ00016-ZCOSP052_Z7066_20_IBaroqueColorBlockDressingGown-Bathrobes-versace-online-store_1_1.jpg?sw=748&sh=1050&sm=fit', 232),
+(58, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw077f9fd4/original/90_ZACJ00016-ZCOSP052_Z7066_26_IBaroqueColorBlockDressingGown-Bathrobes-versace-online-store_1_1.jpg?sw=748&sh=1050&sm=fit', 233),
+(58, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa41c35e2/original/90_ZACJ00016-ZCOSP052_Z7066_24_IBaroqueColorBlockDressingGown-Bathrobes-versace-online-store_1_1.jpg?sw=748&sh=1050&sm=fit', 234),
+(58, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9fbcea90/original/90_ZACJ00016-ZCOSP052_Z7066_23_IBaroqueColorBlockDressingGown-Bathrobes-versace-online-store_1_1.jpg?sw=748&sh=1050&sm=fit', 235),
+(59, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwedc9241c/original/90_E71HAL2P1-ENS039_EG37_10_TartanBaroquePrintShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 236),
+(59, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa76c11e5/original/90_E71HAL2P1-ENS039_EG37_15_TartanBaroquePrintShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 237),
+(59, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc2bd810a/original/90_E71HAL2P1-ENS039_EG37_16_TartanBaroquePrintShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 238),
+(59, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw191867c7/original/90_E71HAL2P1-ENS039_EG37_18_TartanBaroquePrintShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 239),
+(68, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwaa184079/original/90_1001008-1A00603_2U520_10_LogoGatheredT-Shirt-T-shirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 240),
+(68, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2b97f8fc/original/90_1001008-1A00603_2U520_15_LogoGatheredT-Shirt-T-shirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 241),
+(68, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw92dc5573/original/90_1001008-1A00603_2U520_16_LogoGatheredT-Shirt-T-shirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 242),
+(68, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa0daeda0/original/90_1001008-1A00603_2U520_18_LogoGatheredT-Shirt-T-shirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 243),
+(60, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw733f1cab/original/90_E71HAS52L-EES008054_EMC2_10_StripedDenimJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 244),
+(60, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb408005b/original/90_E71HAS52L-EES008054_EMC2_15_StripedDenimJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 245),
+(60, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc7867835/original/90_E71HAS52L-EES008054_EMC2_16_StripedDenimJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 246),
+(60, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe0458159/original/90_E71HAS52L-EES008054_EMC2_18_StripedDenimJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 247),
+(61, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 248),
+(61, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb8afc129/original/90_E71HAE857-EDW00901P_E904_15_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 249);
+INSERT INTO `image_id` (`id`, `image_url`, `id_image`) VALUES
+(61, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7ea71748/original/90_E71HAE857-EDW00901P_E904_16_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 250),
+(61, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwdd4a0df4/original/90_E71HAE857-EDW00901P_E904_18_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 251),
+(62, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw854c4c83/original/90_E71HAB5S0-EDW00901P_E904_10_RegaliaBaroquePrintSlimJeans-Denim-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 252),
+(62, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwacf3e035/original/90_E71HAB5S0-EDW00901P_E904_15_RegaliaBaroquePrintSlimJeans-Denim-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 253),
+(62, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwfa2cd537/original/90_E71HAB5S0-EDW00901P_E904_16_RegaliaBaroquePrintSlimJeans-Denim-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 254),
+(62, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwed014166/original/90_E71HAB5S0-EDW00901P_E904_18_RegaliaBaroquePrintSlimJeans-Denim-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 255),
+(63, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw05af1dce/original/90_E71HAVP01-ECP001_E243_10_BomberJacket-JacketsandCoats-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 256),
+(63, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwce6c3735/original/90_E71HAVP01-ECP001_E243_15_BomberJacket-JacketsandCoats-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 257),
+(63, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw380840dc/original/90_E71HAVP01-ECP001_E243_16_BomberJacket-JacketsandCoats-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 258),
+(63, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw6b247710/original/90_E71HAVP01-ECP001_E243_18_BomberJacket-JacketsandCoats-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 259),
+(64, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8df4ef06/original/90_E71HAD325-EFS002_EG24_10_RegaliaBaroquePrintShorts-Pants-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 260),
+(64, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw51766be8/original/90_E71HAD325-EFS002_EG24_15_RegaliaBaroquePrintShorts-Pants-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 261),
+(64, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw52f11022/original/90_E71HAD325-EFS002_EG24_16_RegaliaBaroquePrintShorts-Pants-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 262),
+(64, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd0943772/original/90_E71HAD325-EFS002_EG24_18_RegaliaBaroquePrintShorts-Pants-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 263),
+(65, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8237d3fe/original/90_E71HAI317-EFS002_E899_10_RegaliaBaroquePrintHoodie-T-shirtsandSweatshirts-versace-online-store_1_0.jpg?sw=748&sh=1050&sm=fit', 264),
+(65, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9fcf6fa5/original/90_E71HAI317-EFS002_E899_15_RegaliaBaroquePrintHoodie-T-shirtsandSweatshirts-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 265),
+(65, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf8ecb79b/original/90_E71HAI317-EFS002_E899_16_RegaliaBaroquePrintHoodie-T-shirtsandSweatshirts-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 266),
+(65, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe8a2cf44/original/90_E71HAI317-EFS002_E899_18_RegaliaBaroquePrintHoodie-T-shirtsandSweatshirts-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 267),
+(66, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4e562a9/original/90_E71HAE8A3-EN0006_E899_10_RegaliaBaroquePrintAccentSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 268),
+(66, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw6a90b5de/original/90_E71HAE8A3-EN0006_E899_15_RegaliaBaroquePrintAccentSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 269),
+(66, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8b64a03c/original/90_E71HAE8A3-EN0006_E899_16_RegaliaBaroquePrintAccentSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 270),
+(66, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9e33598e/original/90_E71HAE8A3-EN0006_E899_18_RegaliaBaroquePrintAccentSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 271),
+(67, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw64365282/original/90_E71HAL256-EDW00101D_E904_10_Tie-DyePrintDenimShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 272),
+(67, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa73f69ba/original/90_E71HAL256-EDW00101D_E904_15_Tie-DyePrintDenimShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 273),
+(67, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7779302e/original/90_E71HAL256-EDW00101D_E904_16_Tie-DyePrintDenimShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 274),
+(67, 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw51a03127/original/90_E71HAL256-EDW00101D_E904_18_Tie-DyePrintDenimShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 275);
 
 -- --------------------------------------------------------
 
@@ -457,16 +586,6 @@ CREATE TABLE `payment` (
 --
 
 INSERT INTO `payment` (`id_pay`, `customer_id`, `cart_id`, `name`, `address`, `phone`, `date_payment`, `amount`, `type_pr_id`) VALUES
-(324, 87, 206, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '36000', 4),
-(325, 87, 209, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '1680', 1),
-(326, 87, 207, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '33200', 1),
-(327, 87, 208, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '390', 1),
-(328, 87, 211, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '12205', 6),
-(329, 87, 210, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '1680', 1),
-(330, 87, 212, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '4800', 6),
-(331, 87, 213, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '5300', 3),
-(332, 87, 214, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '2766', 5),
-(333, 87, 215, 'NguyenVan Duc', 'Ha Noi', '012312312', '2021-09-10', '1750', 5),
 (334, 85, 176, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '960', 3),
 (335, 85, 177, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '1993', 4),
 (336, 85, 216, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '2576', 1),
@@ -548,7 +667,27 @@ INSERT INTO `product` (`id`, `name`, `price`, `Image`, `description`, `type_gend
 (45, 'GRECA JEANS', '700', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe7ebb331/original/90_1001676-1A01374_6U140_20_GrecaJeans-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful, this jacket is designed for future fashion icons. The denim style has a unique twist - the jacket features a layer of padding.', 3, 2),
 (46, 'LA MEDUSA KIDS BACKPACK', '1000', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe38ac69f/original/90_1001629-1A01275_2U530_20_LaMedusaKidsBackpack-Accessories-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful, this jacket is designed for future fashion icons. The denim style has a unique twist - the jacket features a layer of padding.', 3, 6),
 (47, 'CHAIN REACTION KIDS SNEAKERS', '1022', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dweb113c5b/original/90_YHX00001-YB00365_YA03_20_ChainReactionKidsTrainers-Shoes-versace-online-store_3_4.jpg?sw=748&sh=1050&sm=fit', 'Crafted from soft stretch cotton, this comfy sweatshirt is embellished with a holographic Medusa print.', 3, 3),
-(48, 'PADDED DENIM JACKET', '1500', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0050b60b/original/90_1000438-1A00382_6U140_20_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful, this jacket is designed for future fashion icons. The denim style has a unique twist - the jacket features a layer of padding.', 3, 3);
+(48, 'PADDED DENIM JACKET', '1500', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0050b60b/original/90_1000438-1A00382_6U140_20_PaddedDenimJacket-Clothing-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Fun and playful, this jacket is designed for future fashion icons. The denim style has a unique twist - the jacket features a layer of padding.', 3, 3),
+(49, 'LA GRECA EMBROIDERED SILK BATHROBE', '1234', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2a619b78/original/90_ZSWN00003-ZSEP0221_Z7150_20_LaGrecaembroideredsilkbathrobe-Bathrobes-versace-online-store_1_2.jpg?sw=748&sh=1050&sm=fit', 'Unmistakably Versace, this bathrobe is crafted from pure silk and is detailed with the La Greca print and appliqued sequin branding.', 0, 0),
+(50, 'I ♡ BAROQUE BATHROBE', '595', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit', 'You can customize your bathrobe by adding up to 9 sequin-embroidered characters to the plush cotton style. Each letter patch is sewn by hand into the bathrobe by our skilled artisans, ensuring the highest quality of your one-of-a-kind piece', 0, 0),
+(51, 'I ♡ BAROQUE BATHROBE', '595', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw942add04/original/90_ZACJ00008-ZCOSP052_Z4003_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=850&sh=1200&sm=fit', 'You can customize your bathrobe by adding up to 9 sequin-embroidered characters to the plush cotton style. Each letter patch is sewn by hand into the bathrobe by our skilled artisans, ensuring the highest quality of your one-of-a-kind piece.', 0, 0),
+(52, 'I ♡ BAROQUE BATHROBE', '595', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9723636e/original/90_ZACJ00008-ZCOSP052_Z4584_20_IBaroqueBathrobe-Bathrobes-versace-online-store_6_0.jpg?sw=850&sh=1200&sm=fit', 'You can customize your bathrobe by adding up to 9 sequin-embroidered characters to the plush cotton style. Each letter patch is sewn by hand into the bathrobe by our skilled artisans, ensuring the highest quality of your one-of-a-kind piece.', 0, 0),
+(53, 'I ♡ BAROQUE TERRY CLOTH BATHROBE', '787', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb36b1941/original/90_ZACP00052-ZCOSP075_Z7066_20_IBaroqueTerryClothBathrobe-Bathrobes-versace-online-store_2_2.png?sw=748&sh=1050&sm=fit', 'Adorned with bold Barocco prints and contrasting trims, this soft and iconically covered bathrobe exudes luxury.', 0, 0),
+(54, 'MULTICOLOR I ♡ BAROQUE BATHROBE', '999', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7249f70e/original/90_ZACJ00014-ZCOSP052_Z4250_20_MulticolorIBaroqueBathrobe-Bathrobes-versace-online-store_7_1.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 'Featuring a faint textural Versace logo print and accented by a Barocco printed sleeve and wrap belt, this soft and iconically covered bathrobe exudes luxury', 0, 0),
+(55, 'I ♡ BAROQUE BATHROBE', '808', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwefc09ee1/original/90_ZACJ00008-ZCOSP052_Z4002_20_IBaroqueBathrobe-Bathrobes-versace-online-store_7_0.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 'You can customize your bathrobe by adding up to 9 sequin-embroidered characters to the plush cotton style. Each letter patch is sewn by hand into the bathrobe by our skilled artisans, ensuring the highest quality of your one-of-a-kind piece.', 0, 0),
+(56, 'I ♡ BAROQUE BATHROBE', '555', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw93027345/original/90_ZACJ00008-ZCOSP052_Z4004_20_IBaroqueBathrobe-Bathrobes-versace-online-store_6_1.jpg?sw=748&sh=1050&sm=fit', 'You can customize your bathrobe by adding up to 9 sequin-embroidered characters to the plush cotton style. Each letter patch is sewn by hand into the bathrobe by our skilled artisans, ensuring the highest quality of your one-of-a-kind piece.', 0, 0),
+(57, 'I ♡ BAROQUE BATHROBE', '899', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwed431183/original/90_ZACJ00008-ZCOSP052_Z4882_20_IBaroqueBathrobe-Bathrobes-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'Unmistakably Versace, this bathrobe is crafted from pure silk and is detailed with the La Greca print and appliqued sequin branding.', 0, 0),
+(58, 'I ♡ BAROQUE BATHROBE', '676', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa67b56d5/original/90_ZACJ00016-ZCOSP052_Z7066_20_IBaroqueColorBlockDressingGown-Bathrobes-versace-online-store_1_1.jpg?sw=748&sh=1050&sm=fit', 'Unmistakably Versace, this bathrobe is crafted from pure silk and is detailed with the La Greca print and appliqued sequin branding.', 0, 0),
+(59, 'TARTAN BAROQUE PRINT SHIRT', '625', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwedc9241c/original/90_E71HAL2P1-ENS039_EG37_10_TartanBaroquePrintShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 'Viscose shirt in the bold Tartan Baroque print. Endless opportunities for styling - inspiration can be found when paired with denim bottoms or a matching skirt', 2, 7),
+(60, 'STRIPED DENIM JACKET', '850', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw733f1cab/original/90_E71HAS52L-EES008054_EMC2_10_StripedDenimJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 'An elevated summer essential, this denim jacket boasts the bold striped print. Pairs well with a multitude of designs for a day to night look', 2, 7),
+(61, 'REGALIA BAROQUE PRINT DENIM SKIRT', '550', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 'An intricate design - this denim skirt boasts the Regalia Baroque print created with strong pigments and golden glitter. The design was entirely made by hand. ', 2, 7),
+(62, 'REGALIA BAROQUE PRINT SLIM JEANS', '625', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw854c4c83/original/90_E71HAB5S0-EDW00901P_E904_10_RegaliaBaroquePrintSlimJeans-Denim-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 'An intricate design, these slim fit jeans feature the Regalia Baroque pattern printed with strong pigments and golden glitter. This pair of jeans was entirely made by hand. ', 2, 7),
+(63, 'BOMBER JACKET', '995', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw05af1dce/original/90_E71HAVP01-ECP001_E243_10_BomberJacket-JacketsandCoats-versace-online-store_0_1.jpg?sw=748&sh=1050&sm=fit', 'A casual design made for all type of weather. This leather-effect bomber jacket boasts a logo patch on the chest.', 2, 7),
+(64, 'REGALIA BAROQUE PRINT SHORTS', '300', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8df4ef06/original/90_E71HAD325-EFS002_EG24_10_RegaliaBaroquePrintShorts-Pants-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 'A perfect look design for summer days - these shorts in brushed fleece come in the bold Regalia Baroque print.', 2, 7),
+(65, 'REGALIA BAROQUE PRINT HOODIE', '425', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8237d3fe/original/90_E71HAI317-EFS002_E899_10_RegaliaBaroquePrintHoodie-T-shirtsandSweatshirts-versace-online-store_1_0.jpg?sw=748&sh=1050&sm=fit', 'Fun and colorful, this soft cotton hoodie comes in the Regalia Baroque print. The design features cut-out details on the front and a hood.', 2, 7),
+(66, 'REGALIA BAROQUE PRINT ACCENT SKIRT', '400', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4e562a9/original/90_E71HAE8A3-EN0006_E899_10_RegaliaBaroquePrintAccentSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 'An elegant design for a wide range of occasions - this button-up mini skirt is enriched with an insert in the Regalia Baroque print.', 2, 7),
+(67, 'TIE-DYE PRINT DENIM SHIRT', '750', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw64365282/original/90_E71HAL256-EDW00101D_E904_10_Tie-DyePrintDenimShirt-ShirtsandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 'A tie-dye effect made entirely by hand - this denim shirt exudes confidence and boldness. Pair with denim bottoms for a coordinated look', 2, 7),
+(68, 'LOGO GATHERED T-SHIRT', '550', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwaa184079/original/90_1001008-1A00603_2U520_10_LogoGatheredT-Shirt-T-shirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 'An elevated casual design, this oversized t-shirt features gathering on the hem enriched with golden Medusa hardware. The soft cotton style features a Medusa motif and logo lettering', 2, 7);
 
 -- --------------------------------------------------------
 
@@ -704,7 +843,67 @@ INSERT INTO `size_id` (`id`, `id_size`, `size`) VALUES
 (47, 135, '37'),
 (48, 136, '35'),
 (48, 137, '36'),
-(48, 138, '37');
+(48, 138, '37'),
+(55, 139, 'M'),
+(55, 141, 'L'),
+(50, 142, 'M'),
+(50, 143, 'L'),
+(50, 144, 'XL'),
+(51, 145, 'M'),
+(51, 146, 'L'),
+(51, 147, 'XL'),
+(52, 148, 'M'),
+(52, 149, 'L'),
+(52, 150, 'XL'),
+(53, 151, 'M'),
+(53, 152, 'L'),
+(53, 153, 'XL'),
+(49, 154, 'M'),
+(49, 155, 'L'),
+(49, 156, 'XL'),
+(55, 157, 'XL'),
+(57, 159, 'XL'),
+(54, 160, 'M'),
+(54, 161, 'L'),
+(54, 162, 'XL'),
+(56, 163, 'M'),
+(57, 165, 'M'),
+(57, 166, 'L'),
+(56, 167, 'L'),
+(56, 169, 'XL'),
+(58, 170, 'M'),
+(58, 171, 'L'),
+(58, 172, 'XL'),
+(68, 173, 'M'),
+(68, 174, 'L'),
+(68, 175, 'XL'),
+(67, 176, 'XL'),
+(67, 177, 'M'),
+(57, 178, 'L'),
+(67, 179, 'M'),
+(66, 180, 'L'),
+(66, 181, 'XL'),
+(65, 182, 'M'),
+(65, 183, 'L'),
+(65, 184, 'XL'),
+(64, 185, 'M'),
+(64, 186, 'L'),
+(64, 187, 'XL'),
+(63, 188, 'M'),
+(63, 189, 'L'),
+(63, 190, 'XL'),
+(62, 191, 'M'),
+(62, 192, 'L'),
+(62, 193, 'XL'),
+(61, 194, 'M'),
+(61, 195, 'L'),
+(61, 196, 'XL'),
+(60, 197, 'M'),
+(60, 198, 'L'),
+(60, 199, 'XL'),
+(59, 200, 'M'),
+(59, 201, 'L'),
+(59, 202, 'XL');
 
 -- --------------------------------------------------------
 
@@ -722,6 +921,7 @@ CREATE TABLE `type_gender_id` (
 --
 
 INSERT INTO `type_gender_id` (`id`, `type`) VALUES
+(0, 'F/M'),
 (1, 'Men'),
 (2, 'Women'),
 (3, 'Children');
@@ -742,12 +942,14 @@ CREATE TABLE `type_pr_id` (
 --
 
 INSERT INTO `type_pr_id` (`id`, `type`) VALUES
+(0, 'Bathrobe'),
 (1, 'Shirt'),
 (2, 'Trousers'),
 (3, 'Shoes'),
 (4, 'Handbag'),
 (5, 'Belt'),
-(6, 'Backpack');
+(6, 'Backpack'),
+(7, 'Jean');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -835,13 +1037,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT cho bảng `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id_cart` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=225;
+  MODIFY `id_cart` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=244;
 
 --
 -- AUTO_INCREMENT cho bảng `color_id`
 --
 ALTER TABLE `color_id`
-  MODIFY `id_color` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
+  MODIFY `id_color` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=167;
 
 --
 -- AUTO_INCREMENT cho bảng `customer`
@@ -853,7 +1055,7 @@ ALTER TABLE `customer`
 -- AUTO_INCREMENT cho bảng `image_id`
 --
 ALTER TABLE `image_id`
-  MODIFY `id_image` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=202;
+  MODIFY `id_image` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=276;
 
 --
 -- AUTO_INCREMENT cho bảng `payment`
@@ -865,13 +1067,13 @@ ALTER TABLE `payment`
 -- AUTO_INCREMENT cho bảng `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 
 --
 -- AUTO_INCREMENT cho bảng `size_id`
 --
 ALTER TABLE `size_id`
-  MODIFY `id_size` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=139;
+  MODIFY `id_size` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=203;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
