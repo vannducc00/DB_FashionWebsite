@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 01, 2021 lúc 12:05 PM
+-- Thời gian đã tạo: Th10 10, 2021 lúc 10:49 AM
 -- Phiên bản máy phục vụ: 10.4.19-MariaDB
 -- Phiên bản PHP: 7.3.28
 
@@ -31,15 +31,16 @@ CREATE TABLE `admin` (
   `id` int(20) NOT NULL,
   `name` text DEFAULT NULL,
   `username` text NOT NULL,
-  `password` text NOT NULL
+  `password` text NOT NULL,
+  `key_check` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Đang đổ dữ liệu cho bảng `admin`
 --
 
-INSERT INTO `admin` (`id`, `name`, `username`, `password`) VALUES
-(1, 'duc', 'admin_duc', 'admin_duc');
+INSERT INTO `admin` (`id`, `name`, `username`, `password`, `key_check`) VALUES
+(1, 'duc', 'duc', 'duc', 'nguyenvanduc');
 
 -- --------------------------------------------------------
 
@@ -66,21 +67,18 @@ CREATE TABLE `cart` (
 --
 
 INSERT INTO `cart` (`id_cart`, `customer_id`, `product_id`, `name`, `Image`, `type_pr_id`, `quantity`, `color`, `size`, `amount`, `create_date`) VALUES
-(176, 85, 25, 'GRECA SNEAKERS', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbeb9d2dd/original/90_DSU8404-1A00775_2W340_23_GrecaTrainers-GrecaSneakers-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 3, '1', 'Blue+White', '', '960', '2021-09-04'),
-(177, 85, 14, 'La Medusa Medium Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbf7aa816/original/90_1000699-DVIT3T_1B00V_20_LaMedusaMediumHoboBag-ShoulderBags-versace-online-store_2_0.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1993', '2021-09-04'),
-(216, 85, 1, 'Serape-Print Mesh Hoodie', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411077_alternate10?$rl_df_pdp_5_7_a10$', 1, '7', 'Serape Print', 'L', '2576', '2021-09-10'),
-(217, 85, 3, 'Classic Fit Southwestern Pocket T-Shirt', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, '10', 'Freshwater', 'L', '890', '2021-09-10'),
-(218, 85, 4, 'PRL Surf Fleece Hoodie', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411113_alternate10?$rl_df_pdp_5_7_a10$', 1, '10', 'Seafoam', 'L', '1680', '2021-09-10'),
-(219, 85, 17, 'Trigreca Sneakers', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw31bc95b6/original/90_DSU8094-1A00838_6B370_20_TrigrecaTrainers-TrigrecaSneakers-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 3, '5', 'Blue Print', '', '5355', '2021-09-10'),
-(220, 85, 24, 'WOOL & NYLON JACKET', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd355f3c0/original/90_1001027-1A00678_2U540_10_WoolandNylonJacket-JacketsandCoats-versace-online-store_1_2.jpg?sw=748&sh=1050&sm=fit', 1, '5', 'Navy', 'L', '17500', '2021-09-10'),
-(221, 85, 31, 'LA MEDUSA TRÉSOR DE LA MER PRINT BELT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwecb3b394/original/90_DCDD442-D2VSTM_5P08V_23_LaMedusaTrsordelaMerPrintBelt-Belts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 5, '6', 'Black', '', '2100', '2021-09-10'),
-(222, 85, 28, 'COTTON POPLIN INTARSIA SHIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw5be7107d/original/90_1000795-1A00963_2W030_15_CottonPoplinIntarsiaShirt-BlousesandTops-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, '6', 'Blue + White', '42', '14040', '2021-09-10'),
-(223, 85, 29, 'STRAIGHT LEG JEANS', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwcb0dfea6/original/90_1001245-1A00909_1D100_15_StraightLegJeans-Jeans-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 2, '6', 'Blue', '27', '7320', '2021-09-10'),
-(224, 85, 21, 'LA MEDUSA MEDIUM HANDBAG', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe0341de9/original/90_DBFI039-DVIT2T_KVO41_20_LaMedusaMediumHandbag-TopHandle-versace-online-store_4_2.jpg?sw=748&sh=1050&sm=fit', 4, '6', 'Orange', '', '21600', '2021-09-10'),
 (240, 87, 51, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw942add04/original/90_ZACJ00008-ZCOSP052_Z4003_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=850&sh=1200&sm=fit', 0, '1', 'white', 'XL', '595', '2021-10-01'),
 (241, 87, 51, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw942add04/original/90_ZACJ00008-ZCOSP052_Z4003_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=850&sh=1200&sm=fit', 0, '1', 'blue', 'XL', '595', '2021-10-01'),
 (242, 87, 13, 'La Medusa Small Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1821', '2021-10-01'),
-(243, 87, 42, 'MEDUSA BACKPACK', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf48a1e81/original/90_1001629-1A01276_2L050_23_MedusaBackpack-Accessories-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 6, '1', 'green', '37', '1022', '2021-10-01');
+(243, 87, 42, 'MEDUSA BACKPACK', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwf48a1e81/original/90_1001629-1A01276_2L050_23_MedusaBackpack-Accessories-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 6, '1', 'green', '37', '1022', '2021-10-01'),
+(244, 87, 13, 'La Medusa Small Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1821', '2021-10-11'),
+(245, 87, 14, 'La Medusa Medium Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbf7aa816/original/90_1000699-DVIT3T_1B00V_20_LaMedusaMediumHoboBag-ShoulderBags-versace-online-store_2_0.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1993', '2021-10-11'),
+(246, 87, 22, 'WOOL & NYLON JACKET', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9dd208d7/original/90_1001244-1A00901_2U340_10_WoolandNylonJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, '1', 'Blue+Black', 'XL', '3320', '2021-10-11'),
+(247, 87, 22, 'WOOL & NYLON JACKET', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9dd208d7/original/90_1001244-1A00901_2U340_10_WoolandNylonJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, '1', 'Blue+Black', 'XL', '3320', '2021-10-11'),
+(248, 87, 22, 'WOOL & NYLON JACKET', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw9dd208d7/original/90_1001244-1A00901_2U340_10_WoolandNylonJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, '1', 'Blue+Black', 'XL', '3320', '2021-10-11'),
+(256, 85, 13, 'La Medusa Small Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1821', '2021-11-09'),
+(257, 85, 13, 'La Medusa Small Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1821', '2021-11-09'),
+(258, 85, 13, 'La Medusa Small Hobo Bag', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Light Pink', '', '1821', '2021-11-09');
 
 -- --------------------------------------------------------
 
@@ -586,17 +584,15 @@ CREATE TABLE `payment` (
 --
 
 INSERT INTO `payment` (`id_pay`, `customer_id`, `cart_id`, `name`, `address`, `phone`, `date_payment`, `amount`, `type_pr_id`) VALUES
-(334, 85, 176, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '960', 3),
-(335, 85, 177, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '1993', 4),
-(336, 85, 216, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '2576', 1),
-(337, 85, 217, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '890', 1),
-(338, 85, 219, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '5355', 3),
-(339, 85, 218, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '1680', 1),
-(340, 85, 220, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-03-10', '17500', 1),
-(341, 85, 221, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-04-10', '2100', 5),
-(342, 85, 222, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-02-10', '14040', 1),
-(343, 85, 223, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '7320', 2),
-(344, 85, 224, 'Hoang DinhLong', 'Ha noi', '12312312', '2021-09-10', '21600', 4);
+(345, 87, 240, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '595', 0),
+(346, 87, 246, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '3320', 1),
+(347, 87, 243, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '1022', 6),
+(348, 87, 242, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '1821', 4),
+(349, 87, 244, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '1821', 4),
+(350, 87, 245, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '1993', 4),
+(351, 87, 247, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '3320', 1),
+(352, 87, 248, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '3320', 1),
+(353, 87, 241, 'nguyenduc', 'abcashjdj', '91237120', '2021-10-11', '595', 0);
 
 -- --------------------------------------------------------
 
@@ -1037,7 +1033,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT cho bảng `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id_cart` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=244;
+  MODIFY `id_cart` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=259;
 
 --
 -- AUTO_INCREMENT cho bảng `color_id`
@@ -1061,7 +1057,7 @@ ALTER TABLE `image_id`
 -- AUTO_INCREMENT cho bảng `payment`
 --
 ALTER TABLE `payment`
-  MODIFY `id_pay` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=345;
+  MODIFY `id_pay` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=354;
 
 --
 -- AUTO_INCREMENT cho bảng `product`
