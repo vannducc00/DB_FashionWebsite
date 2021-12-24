@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 12, 2021 lúc 04:21 PM
+-- Thời gian đã tạo: Th12 24, 2021 lúc 04:22 PM
 -- Phiên bản máy phục vụ: 10.4.20-MariaDB
 -- Phiên bản PHP: 8.0.9
 
@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `username`, `password`, `key_check`) VALUES
-(13, 'duc', 'duc', 'duc', 'nguyenvanduc');
+(14, 'admin', 'admin', 'admin', 'admin');
 
 -- --------------------------------------------------------
 
@@ -72,12 +72,18 @@ INSERT INTO `cart` (`id_cart`, `customer_id`, `product_id`, `name`, `Image`, `ty
 (271, 85, 20, 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Red', '', '3600', '2021-11-26'),
 (272, 85, 50, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 0, '2', 'blue', 'XL', '1190', '2021-11-26'),
 (273, 85, 53, 'I ♡ BAROQUE TERRY CLOTH BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb36b1941/original/90_ZACP00052-ZCOSP075_Z7066_20_IBaroqueTerryClothBathrobe-Bathrobes-versace-online-store_2_2.png?sw=748&sh=1050&sm=fit', 0, '2', 'black', 'M', '1574', '2021-11-26'),
-(274, 87, 13, 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1821', '2021-11-26'),
-(279, 87, 50, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 0, '1', 'blue', 'XL', '595', '2021-12-01'),
-(280, 87, 50, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 0, '1', 'violet', 'XL', '595', '2021-12-01'),
-(281, 87, 60, 'STRIPED DENIM JACKET', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw733f1cab/original/90_E71HAS52L-EES008054_EMC2_10_StripedDenimJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 7, '1', 'blue', 'XL', '850', '2021-12-02'),
-(282, 87, 61, 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 7, '1', 'white', 'XL', '550', '2021-12-02'),
-(283, 87, 64, 'REGALIA BAROQUE PRINT SHORTS', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8df4ef06/original/90_E71HAD325-EFS002_EG24_10_RegaliaBaroquePrintShorts-Pants-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 7, '1', 'black', 'XL', '300', '2021-12-02');
+(284, 87, 50, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 0, '2', 'violet', 'XL', '1190', '2021-12-16'),
+(285, 87, 13, 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'Black', '', '1821', '2021-12-16'),
+(286, 87, 13, 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 4, '2', 'Black', '', '3642', '2021-12-16'),
+(287, 87, 20, 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 4, '2', 'beige', '', '7200', '2021-12-16'),
+(288, 87, 20, 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 4, '2', 'Lilac', '', '7200', '2021-12-16'),
+(289, 87, 61, 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 7, '1', 'white', 'XL', '550', '2021-12-16'),
+(290, 87, 41, 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'white', '36', '1000', '2021-12-16'),
+(291, 87, 41, 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 4, '1', 'white', '36', '1000', '2021-12-16'),
+(292, 87, 3, 'Áo phông có túi Tây Nam vừa vặn cổ điển', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, '1', 'Freshwater', 'XL', '89', '2021-12-16'),
+(293, 101, 50, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 0, '1', 'blue', 'XL', '595', '2021-12-24'),
+(294, 101, 50, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 0, '1', 'blue', 'XL', '595', '2021-12-24'),
+(295, 101, 50, 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 0, '1', 'blue', 'XL', '595', '2021-12-24');
 
 -- --------------------------------------------------------
 
@@ -270,7 +276,14 @@ CREATE TABLE `customer` (
 INSERT INTO `customer` (`id`, `phone`, `user_name`, `password`) VALUES
 (85, '0976970933', 'aaa', '123456 '),
 (87, '1921682107', 'nguyenvanduc', 'abc123'),
-(88, '01231231212', 'Ronaldo', '123123');
+(88, '01231231212', 'Ronaldo', '123123'),
+(92, '0102301032', 'nguyenvand', 'nguyenvand'),
+(96, '0987654321', 'nguyenvancc', 'duc12345'),
+(97, '0987654321', 'nguyenvandd', 'duc12345'),
+(98, '0987654321', 'nguyenvanad', 'duc12345'),
+(99, '0987654321', 'nvduc', 'duc12345'),
+(100, '0789654123', 'nvducc', 'duc12345'),
+(101, '012838123', 'duckh', 'duckh1');
 
 -- --------------------------------------------------------
 
@@ -575,12 +588,54 @@ CREATE TABLE `payment` (
 --
 
 INSERT INTO `payment` (`id_pay`, `customer_id`, `product_id`, `name`, `address`, `phone`, `date_payment`, `name_product`, `image`, `quantity`, `amount`, `color`, `size`, `pay_method`, `type_pr_id`) VALUES
-(427, 87, 13, 'nguyenduc', '123abc', '0123123', '2021-12-02', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 1, 1821, 'Black', '', 'Nhận hàng thanh toán', 4),
-(428, 87, 60, 'nguyenduc', '123abc', '0123123', '2021-12-02', 'STRIPED DENIM JACKET', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw733f1cab/original/90_E71HAS52L-EES008054_EMC2_10_StripedDenimJacket-JacketsandCoats-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, 850, 'blue', 'XL', 'Nhận hàng thanh toán', 7),
-(429, 87, 50, 'nguyenduc', '123abc', '0123123', '2021-12-02', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, 595, 'blue', 'XL', 'Nhận hàng thanh toán', 0),
-(430, 87, 64, 'nguyenduc', '123abc', '0123123', '2021-12-02', 'REGALIA BAROQUE PRINT SHORTS', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8df4ef06/original/90_E71HAD325-EFS002_EG24_10_RegaliaBaroquePrintShorts-Pants-versace-online-store_0_5.jpg?sw=748&sh=1050&sm=fit', 1, 300, 'black', 'XL', 'Nhận hàng thanh toán', 7),
-(431, 87, 61, 'nguyenduc', '123abc', '0123123', '2021-12-02', 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, 550, 'white', 'XL', 'Nhận hàng thanh toán', 7),
-(432, 87, 50, 'nguyenduc', '123abc', '0123123', '2021-12-02', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, 595, 'violet', 'XL', 'Nhận hàng thanh toán', 0);
+(440, 87, 50, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 2, 1190, 'violet', 'XL', 'Nhận hàng thanh toán', 0),
+(441, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 2, 3642, 'Black', '', 'Nhận hàng thanh toán', 4),
+(442, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'beige', '', 'Nhận hàng thanh toán', 4),
+(443, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'Lilac', '', 'Nhận hàng thanh toán', 4),
+(444, 87, 61, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, 550, 'white', 'XL', 'Nhận hàng thanh toán', 7),
+(445, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Nhận hàng thanh toán', 4),
+(446, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Nhận hàng thanh toán', 4),
+(447, 87, 3, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Áo phông có túi Tây Nam vừa vặn cổ điển', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, 89, 'Freshwater', 'XL', 'Nhận hàng thanh toán', 1),
+(448, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 1, 1821, 'Black', '', 'Nhận hàng thanh toán', 4),
+(449, 87, 50, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 2, 1190, 'violet', 'XL', 'Nhận hàng thanh toán', 0),
+(450, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 1, 1821, 'Black', '', 'Nhận hàng thanh toán', 4),
+(451, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 2, 3642, 'Black', '', 'Nhận hàng thanh toán', 4),
+(452, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'beige', '', 'Nhận hàng thanh toán', 4),
+(453, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'Lilac', '', 'Nhận hàng thanh toán', 4),
+(454, 87, 61, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, 550, 'white', 'XL', 'Nhận hàng thanh toán', 7),
+(455, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Nhận hàng thanh toán', 4),
+(456, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Nhận hàng thanh toán', 4),
+(457, 87, 3, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Áo phông có túi Tây Nam vừa vặn cổ điển', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, 89, 'Freshwater', 'XL', 'Nhận hàng thanh toán', 1),
+(458, 87, 50, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 2, 1190, 'violet', 'XL', 'Nhận hàng thanh toán', 0),
+(459, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 2, 3642, 'Black', '', 'Nhận hàng thanh toán', 4),
+(460, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'beige', '', 'Nhận hàng thanh toán', 4),
+(461, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 1, 1821, 'Black', '', 'Nhận hàng thanh toán', 4),
+(462, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'Lilac', '', 'Nhận hàng thanh toán', 4),
+(463, 87, 61, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, 550, 'white', 'XL', 'Nhận hàng thanh toán', 7),
+(464, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Nhận hàng thanh toán', 4),
+(465, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Nhận hàng thanh toán', 4),
+(466, 87, 3, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Áo phông có túi Tây Nam vừa vặn cổ điển', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, 89, 'Freshwater', 'XL', 'Nhận hàng thanh toán', 1),
+(467, 87, 50, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 2, 1190, 'violet', 'XL', 'Ví điện tử', 0),
+(468, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'beige', '', 'Ví điện tử', 4),
+(469, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'Lilac', '', 'Ví điện tử', 4),
+(470, 87, 61, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, 550, 'white', 'XL', 'Ví điện tử', 7),
+(471, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Ví điện tử', 4),
+(472, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Ví điện tử', 4),
+(473, 87, 3, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Áo phông có túi Tây Nam vừa vặn cổ điển', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, 89, 'Freshwater', 'XL', 'Ví điện tử', 1),
+(474, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 1, 1821, 'Black', '', 'Ví điện tử', 4),
+(475, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 2, 3642, 'Black', '', 'Ví điện tử', 4),
+(476, 87, 50, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 2, 1190, 'violet', 'XL', 'Ví điện tử', 0),
+(477, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 1, 1821, 'Black', '', 'Ví điện tử', 4),
+(478, 87, 13, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Túi Hobo Nhỏ La Medusa', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa2983378/original/90_1000802-DVIT3T_1P72V_20_LaMedusaSmallHoboBag-ShoulderBags-versace-online-store_2_2.jpg?sw=748&sh=1050&sm=fit', 2, 3642, 'Black', '', 'Ví điện tử', 4),
+(479, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'beige', '', 'Ví điện tử', 4),
+(480, 87, 20, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI XÁCH VỪA LA MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw8eb13bd4/original/90_DBFI039-DVIT2T_1K26V_28_LaMedusaMediumHandbag-TopHandle-versace-online-store_0_0.jpg?sw=748&sh=1050&sm=fit', 2, 7200, 'Lilac', '', 'Ví điện tử', 4),
+(481, 87, 61, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'REGALIA BAROQUE PRINT DENIM SKIRT', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwd3afde77/original/90_E71HAE857-EDW00901P_E904_10_RegaliaBaroquePrintDenimSkirt-Skirts-versace-online-store_0_2.jpg?sw=748&sh=1050&sm=fit', 1, 550, 'white', 'XL', 'Ví điện tử', 7),
+(482, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Ví điện tử', 4),
+(483, 87, 41, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'TÚI VÒNG CÓ ĐÈN LAMINA STUDY MEDUSA', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb4263c0d/original/90_1000497-1A01268_1E01V_23_MedusaStudLaminatedRoundBag-Accessories-versace-online-store_0_3.jpg?sw=748&sh=1050&sm=fit', 1, 1000, 'white', '36', 'Ví điện tử', 4),
+(484, 87, 3, 'nguyneasdh', '1jsjgd', '01232131', '2021-12-16', 'Áo phông có túi Tây Nam vừa vặn cổ điển', 'https://www.rlmedia.io/is/image/PoloGSI/s7-1411256_alternate10?$rl_df_pdp_5_7_a10$', 1, 89, 'Freshwater', 'XL', 'Ví điện tử', 1),
+(485, 101, 50, 'abcabc', 'ádkl', '0213123', '2021-12-24', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, 595, 'blue', 'XL', 'Nhận hàng thanh toán', 0),
+(486, 101, 50, 'abcabc', 'ádkl', '0213123', '2021-12-24', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, 595, 'blue', 'XL', 'Nhận hàng thanh toán', 0),
+(487, 101, 50, 'abcabc', 'ádkl', '0213123', '2021-12-24', 'I ♡ BAROQUE BATHROBE', 'https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb6d93773/original/90_ZACJ00008-ZCOSP052_Z4800_20_IBaroqueBathrobe-Bathrobes-versace-online-store_10_3.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg', 1, 595, 'blue', 'XL', 'Nhận hàng thanh toán', 0);
 
 -- --------------------------------------------------------
 
@@ -1004,13 +1059,13 @@ ALTER TABLE `type_pr_id`
 -- AUTO_INCREMENT cho bảng `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT cho bảng `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id_cart` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=284;
+  MODIFY `id_cart` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=296;
 
 --
 -- AUTO_INCREMENT cho bảng `color_id`
@@ -1022,7 +1077,7 @@ ALTER TABLE `color_id`
 -- AUTO_INCREMENT cho bảng `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102;
 
 --
 -- AUTO_INCREMENT cho bảng `image_id`
@@ -1034,7 +1089,7 @@ ALTER TABLE `image_id`
 -- AUTO_INCREMENT cho bảng `payment`
 --
 ALTER TABLE `payment`
-  MODIFY `id_pay` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=433;
+  MODIFY `id_pay` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=488;
 
 --
 -- AUTO_INCREMENT cho bảng `product`
